@@ -11,7 +11,7 @@ In this section, describe the analysis you completed for the machine learning mo
 * Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
 
 
-In this Challenge analysis aims to leverage various machine learning techniques to train and evaluate the performance of Logistic Regression Models in identifying the creditworthiness of the borrowers. The models were trained using different methods, and their performances were compared to determine the better-performing model. The predictive variables in the model are the labels 0 (healthy loan) and 1 (high-risk loan).
+In this Challenge,  analysis aims to leverage various machine learning techniques to train and evaluate the performance of Logistic Regression Models in identifying the creditworthiness of the borrowers. The models were trained using different methods, and their performances were compared to determine the better-performing model. The predictive variables in the model are the labels 0 (healthy loan) and 1 (high-risk loan).
 
 While constructing the models, the dataset was split into features and labels, and further divided into training and testing sets.
 
@@ -21,13 +21,10 @@ The performance of each model was evaluated based on the balance accuracy score,
 
 
 ## Results
-
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
-
 * Machine Learning Model 1:
-  * Description of Model 1 Accuracy, Precision, and Recall scores.
+* Description of Model 1 Accuracy, Precision, and Recall scores.
 
-In Model 1, trained on the original data, gives an accuracy of 94% in predicting the 2 labels. The model is very good at predicting the healthy loans, with both precision and recall scores of 1.00. However, the model's performance in predicting the high-risk loans can be improved. The precision score for high-risk loans is 0.87, indicating that only 87% of actual high-risk loans were correctly predicted. The recall score for high-risk loans is 0.89, indicating that the model identified only 89% of all high-risk loans.
+In Model 1, trained on the original data, gives an accuracy of 94.4% in predicting the 2 labels. The model is very good at predicting the healthy loans, with both precision and recall scores of 1.00. However, the model's performance in predicting the high-risk loans can be improved. The precision score for high-risk loans is 0.87, indicating that only 87% of actual high-risk loans were correctly predicted. The recall score for high-risk loans is 0.89, indicating that the model identified only 89% of all high-risk loans.
 
 
 * Machine Learning Model 2:
